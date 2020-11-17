@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\MicroHelper\src\MicroHelper\MicroHelper.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Command" />
+      <Folder Include="Event" />
+      <Folder Include="Query" />
+    </ItemGroup>
+
+</Project>
