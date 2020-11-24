@@ -8,10 +8,4 @@
       <ProjectReference Include="..\..\..\MicroHelper\src\MicroHelper\MicroHelper.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Command" />
-      <Folder Include="Event" />
-      <Folder Include="Query" />
-    </ItemGroup>
-
 </Project>
