@@ -12,7 +12,7 @@ namespace MicroHelper.CQRS.Event
         {
             this.serviceFactory = serviceFactory;
         }
-        async Task IEventDispatcher.DisptachAsync<T>(T @event)
+        public async Task DispatchAsync<T>(T @event) where T : class, IEvent
         {
             using var scope = serviceFactory.CreateScope();
             var handlers = scope.ServiceProvider.GetServices<IEventHandler<T>>();
