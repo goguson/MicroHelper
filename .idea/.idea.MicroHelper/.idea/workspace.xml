@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="547e77f9-0ec6-41dd-b8d9-235f521b7273" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MicroHelper/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MicroHelper/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MicroHelper/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MicroHelper/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.MicroHelper/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicroHelper.CQRS/src/MicroHelper.CQRS/Class1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicroHelper.CQRS/src/MicroHelper.CQRS/MicroHelper.CQRS.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MicroHelper/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MicroHelper/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MicroHelper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MicroHelper/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroHelper.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MicroHelper.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,14 +19,19 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/src/MicroHelper/src/MicroHelper/Class1.cs" />
+      <option value="$PROJECT_DIR$/src/MicroHelper.CQRS/src/MicroHelper.CQRS/Class1.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kQn2kSsXsxOeb7VurMA7oGww3z" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -43,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605641480231</updated>
       <workItem from="1605641480433" duration="708000" />
-      <workItem from="1605644509607" duration="51000" />
+      <workItem from="1605644509607" duration="1277000" />
     </task>
     <servers />
   </component>
@@ -63,6 +68,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
