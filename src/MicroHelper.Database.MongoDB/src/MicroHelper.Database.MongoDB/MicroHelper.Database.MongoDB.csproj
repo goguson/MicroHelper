@@ -1,7 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.11.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\MicroHelper.CQRS\src\MicroHelper.CQRS\MicroHelper.CQRS.csproj" />
+    <ProjectReference Include="..\..\..\MicroHelper\src\MicroHelper\MicroHelper.csproj" />
+  </ItemGroup>
 
 </Project>
