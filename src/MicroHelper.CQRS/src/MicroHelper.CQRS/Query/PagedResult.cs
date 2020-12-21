@@ -31,7 +31,7 @@ namespace MicroHelper.CQRS.Query
             TotalPages = totalPages;
             TotalResults = totalResults;
         }
-
+        public static PagedResult<T> Empty => new PagedResult<T>();
         public static PagedResult<T> Create(IEnumerable<T> items,
             int currentPage, int resultsPerPage,
             int totalPages, long totalResults)
